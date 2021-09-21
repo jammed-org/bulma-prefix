@@ -3,7 +3,6 @@
  */
 const webpack = require('webpack');
 const path = require('path');
-const glob = require('glob');
 const ExtractTextPlugin = require('extract-text-webpack-plugin');
 const CleanWebpackPlugin = require('clean-webpack-plugin');
 const inProduction = process.env.NODE_ENV === 'production';
@@ -11,7 +10,7 @@ const inProduction = process.env.NODE_ENV === 'production';
 module.exports = {
     entry: {
         bulma: [
-            './node_modules/bulma/bulma.sass',
+            './bulma.scss',
         ]
     },
     output: {
