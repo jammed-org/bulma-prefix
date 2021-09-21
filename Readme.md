@@ -1,7 +1,10 @@
 ## Goal
+
 This project is use to add custom prefix to every bulma css class.
 
-**This project use Bulma Version 0.9.1**
+**This project use Bulma Version 0.9.3**
+
+At Jammed, we use to to prefix the Bulma version included in our Vue booking app web component.
 
 ## How to use
 1. Fork this repository...
